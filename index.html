@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayıt Formu</title>
+    <style>
+     .sayfa{
+        width:1520px;
+        height:749px;
+        margin-top:-10px;
+        margin-left:-10px;
+        background-color: #6D9AC4;
+        display:flex;
+        justify-content: space-evenly;
+        align-items: center;
+     }
+
+     .baslik{
+        color:black;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:40px;
+        font-weight:500;
+     }
+
+     .card{
+       text-align: center;
+       background-color:white;
+       width:300px;
+       height:300px;
+       border-radius: 10px;
+       box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+       padding:75px;
+       
+
+     }
+ 
+     .buton{
+        
+        background-color:#EE5684;
+        border:1px solid black;
+        font-size:13px;
+        color: white;
+        width: 200px;
+        border-radius: 10px;
+        height:30px;
+        font-weight: 600;
+     }
+
+     .buton:hover{
+        background-color:#f03e73;
+     }
+
+     .yazi{
+        outline:none;
+        border-radius: 10px;
+        border:1px solid black;
+        width:250px;
+        height:22px;
+        padding:8px;
+     }
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <form>
+
+    <div class = "sayfa">
+
+        <div class = "card">
+
+        <h1 class = "baslik">Kayıt Ol</h1>
+        <input class="yazi" type = "text" placeholder="E-mail">
+        <br>
+        <br>
+        <input class="yazi" type = "password" placeholder="Şifre">
+        <br>
+        <br>
+        <input class="buton" type="submit" value="Kayıt Ol">
+
+        </div>
+    </div>
+
+    </form>
+    
+</body>
+</html>
